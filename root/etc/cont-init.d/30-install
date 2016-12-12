@@ -1,0 +1,14 @@
+#!/usr/bin/with-contenv bash
+
+# make our folders
+mkdir -p \
+	/config/hydra
+
+# install app
+[[ ! -d /opt/hydra/.git ]] && \
+	git clone https://github.com/theotherp/nzbhydra /opt/hydra
+
+# permissions
+chown -R abc:abc \
+	/config \
+	/opt/hydra
