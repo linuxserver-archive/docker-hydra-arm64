@@ -79,5 +79,6 @@ The web interface is at `<your ip>:5075` , to set up indexers and connections to
 
 ## Versions
 
++ **20.07.17:** Internal git pull instead of at runtime.
 + **30.05.17:** Rebase to alpine 3.6.
 + **12.12.16:** Initial Release.
